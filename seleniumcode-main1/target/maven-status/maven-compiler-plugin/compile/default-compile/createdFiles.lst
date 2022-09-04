@@ -1,0 +1,4 @@
+com\amazon\test\AmazonTestSuite\BaseClass.class
+com\amazon\test\AmazonTestSuite\CommonComponents.class
+com\amazon\test\AmazonTestSuite\ExcelUtils.class
+com\amazon\test\AmazonTestSuite\Util.class

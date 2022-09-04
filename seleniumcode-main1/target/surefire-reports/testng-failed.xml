@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" verbose="0" name="Failed suite [Amazon Test Suite]">
+  <test name="Search Test Scenarios(failed)" parallel="classes">
+    <classes>
+      <class name="com.amazon.test.AmazonTestSuite.AmazonLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="testScenario1"/>
+        </methods>
+      </class> <!-- com.amazon.test.AmazonTestSuite.AmazonLogin -->
+      <class name="com.amazon.test.AmazonTestSuite.AmazonProductsSearch">
+        <methods>
+          <include name="getResult"/>
+          <include name="testScenario1"/>
+        </methods>
+      </class> <!-- com.amazon.test.AmazonTestSuite.AmazonProductsSearch -->
+    </classes>
+  </test> <!-- Search Test Scenarios(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->
